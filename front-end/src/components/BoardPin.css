@@ -1,0 +1,38 @@
+.BoardPin-image {
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 40px;
+    display: grid;
+}
+
+.BoardPin-image:hover {
+    width: 410px;
+    height: 510px;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container {
+    position: relative;
+    width: 50%;
+    flex: 1 1 420px;
+    max-width: 5000px;
+  }
+
+  .btn {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,ＭＳ Ｐゴシック,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    background-color: rgb(248, 244, 244);
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
