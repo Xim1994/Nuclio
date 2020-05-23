@@ -15,10 +15,10 @@ export const BoardPin = pin => {
     }
     
     return (
-        <div className="container">
+        <div className="card">
             <Link to={"/get/pins/" + pin.id}>
-                <img onMouseOver={showButton} onMouseOut={hideButton} className="BoardPin-image" src={pin.image_url}/>
-                {show ? <span className="btn">Info</span> : ''}
+                <img onMouseOver={showButton} onMouseOut={hideButton} className="img" src={pin.image_url}/>
+                {show ? <span children={pin.name} /> : ''}
             </Link>
         </div>
     )

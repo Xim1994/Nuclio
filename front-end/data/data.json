@@ -71,6 +71,10 @@
             "image_url": "https://cataas.com/cat/5e57c4aae9fac10011cb23ce/says/hello",
             "name": "Foto 12",
             "description": "This is my image"
+        },
+        {
+            "id": "13",
+            "image_url": "https://cataas.com/cat/1"
         }
     ]
 }

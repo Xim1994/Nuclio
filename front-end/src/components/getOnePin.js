@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {BoardPin} from "./BoardPin";
 import { BrowserRouter as Route, Link } from 'react-router-dom';
+import './getOnePin.css'
 
 const GetOnePin = (props) => {
 
@@ -19,7 +20,7 @@ const GetOnePin = (props) => {
   }, []);
 
   return (
-    <div>
+    <div className="single">
       {pin && <BoardPin {...pin} />}
       <label>Author: </label>
       {pin && pin.author}

@@ -1,38 +1,35 @@
-.BoardPin-image {
-    width: 400px;
-    height: 500px;
-    padding: 20px;
-    border-radius: 40px;
-    display: grid;
+img:hover {
+  position: relative;
+  transform: scale(1.01);
+  z-index: 0;
 }
 
-.BoardPin-image:hover {
-    width: 410px;
-    height: 510px;
+span:last-of-type {
+  padding:8px;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  z-index: 1000;
+  position: absolute;
+  top: 70%;
+  left: 15%;
+  opacity: 70%;
 }
 
-/* Style the button and place it in the middle of the container/image */
-.container {
-    position: relative;
-    width: 50%;
-    flex: 1 1 420px;
-    max-width: 5000px;
-  }
+.card:hover {
+  box-shadow: black;
+}
 
-  .btn {
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,メイリオ,Meiryo,ＭＳ Ｐゴシック,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-  }
-  
-  /* Style the button and place it in the middle of the container/image */
-  .container .btn {
-    position: absolute;
-    top: 85%;
-    left: 15%;
-    background-color: rgb(248, 244, 244);
-    color: black;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 100%;    
+}
+
+.img {
+  width: 100%;
+  display: block;
+  border-radius: 30px;
+}

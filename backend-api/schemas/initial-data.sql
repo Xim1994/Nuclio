@@ -26,3 +26,10 @@ create table category (
     created_at timestamp default CURRENT_TIMESTAMP not null on update CURRENT_TIMESTAMP,
     updated_at timestamp null
 );
+
+create table users (
+    id int auto_increment not null primary key,
+    name varchar(50) not null,
+    email varchar(50) not null,
+    password varchar(50) not null
+);
